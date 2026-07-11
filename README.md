@@ -1,3 +1,41 @@
+# Playwright Automation Framework — Alison Kate Lachica
+
+A Playwright end-to-end test automation framework built using the 
+Page Object Model pattern, targeting SauceDemo (saucedemo.com). 
+Tests run automatically on every push via GitHub Actions.
+
+---
+
+## About This Project
+
+I have a background in full stack web development and I'm now 
+building hands-on experience in QA and test automation. This 
+framework demonstrates my ability to build a structured, maintainable 
+automation framework from scratch.
+
+---
+
+## Application Under Test
+
+**App:** SauceDemo — https://www.saucedemo.com  
+**Type:** E-commerce web application  
+**Test Account:** standard_user  
+
+---
+
+## Framework Structure
+
+```plaintext
+playwright-automation/
+├── pages/          ← Page Object Model classes
+├── tests/          ← test spec files
+├── test-data/      ← JSON test data
+├── utils/          ← helper functions
+├── config/         ← environment configs
+├── reports/        ← HTML test reports
+└── .github/        ← GitHub Actions CI/CD
+```
+
 ---
 
 ## Test Coverage
@@ -6,31 +44,29 @@
 |---------|-----------|
 | Login | 6 |
 | Shopping Cart | 7 |
-| **Total** | **13** |
+| E2E | 3 |
+| API | 10 |
+| **Total** | **26** |
 
 ---
 
 ## How to Run Locally
 
 Install dependencies:
-```bash
-npm install
-```
+
+    npm install
 
 Run all tests:
-```bash
-npx playwright test
-```
+
+    npx playwright test
 
 Run with browser visible:
-```bash
-npx playwright test --headed
-```
+
+    npx playwright test --headed
 
 View test report:
-```bash
-npx playwright show-report
-```
+
+    npx playwright show-report
 
 ---
 
