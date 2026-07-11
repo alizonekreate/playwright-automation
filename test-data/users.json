@@ -10,5 +10,11 @@
   "invalidUser": {
     "username": "invalid_user",
     "password": "invalid_password"
+  },
+
+  "checkoutInfo": {
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "postalCode": "12345"
   }
 }
