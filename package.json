@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/alizonekreate/playwright-automation#readme",
   "devDependencies": {
-    "@playwright/test": "^1.61.1"
+    "@playwright/test": "^1.61.1",
+    "dotenv": "^17.4.2"
   }
 }
